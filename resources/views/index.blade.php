@@ -53,7 +53,7 @@
 						<p>
 						Estou comprometido em oferecer não apenas soluções, mas sim experiências transformadoras. Meu compromisso é entregar não apenas um produto final, mas sim uma solução que ultrapasse as expectativas, impactando positivamente a vida e os negócios dos meus clientes.
 						</p>
-						<a class="primary_btn" href="#"><span>Download Curriculo</span></a>
+						<a class="primary_btn" href="{{ route('curriculo') }}"><span>Download Curriculo</span></a>
 					</div>
 				</div>
 			</div>
@@ -207,19 +207,13 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="main_title text-left">
-						<h2>quality work <br>
-							Recently done project </h2>
+						<h2>Alguns dos <br>
+							meus projetos mais recentes </h2>
 					</div>
 				</div>
 			</div>
 			<div class="filters portfolio-filter">
-				<ul>
-					<li class="active" data-filter="*">all</li>
-					<li data-filter=".popular">popular</li>
-					<li data-filter=".latest"> latest</li>
-					<li data-filter=".following">following</li>
-					<li data-filter=".upcoming">upcoming</li>
-				</ul>
+				
 			</div>
 	
 			<div class="filters-content">
@@ -236,8 +230,8 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 								</a>
 							</div>
 							<div class="short_info">
-								<h4><a href="portfolio-details.html">minimal design</a></h4>
-								<p>Animated, portfolio</p>
+								<h4><a href="portfolio-details.html">Locadora de Carros</a></h4>
+								<p>Vue.js, PHP</p>
 							</div>
 						</div>
 					</div>
@@ -253,8 +247,8 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 								</a>
 							</div>
 							<div class="short_info">
-								<h4><a href="portfolio-details.html">Paint wall</a></h4>
-								<p>Animated, portfolio</p>
+								<h4><a href="portfolio-details.html">App Super gestão</a></h4>
+								<p>Laravel</p>
 							</div>
 						</div>
 					</div>
@@ -270,8 +264,8 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 								</a>
 							</div>
 							<div class="short_info">
-								<h4><a href="portfolio-details.html">female light</a></h4>
-								<p>Animated, portfolio</p>
+								<h4><a href="portfolio-details.html">Sismat</a></h4>
+								<p>Laravel, CSS, Bootstrap</p>
 							</div>
 						</div>
 					</div>
@@ -286,101 +280,6 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 									</div>
 								</a>
 							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">fourth air</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p6.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p5.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">together sign</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all upcoming">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p5.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p6.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">multiply fowl</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all upcoming following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p7.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p7.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">green heaven</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all following">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p8.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p8.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4>fly male</h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all upcoming">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p9.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p9.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">season face</a></h4>
-								<p>Animated, portfolio</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 	<!--================End Portfolio Area =================-->
 
 	<!--================ Start Testimonial Area =================-->
@@ -389,7 +288,7 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 			<div class="row justify-content-center">
 				<div class="col-lg-8 text-center">
 					<div class="main_title">
-						<h2>client say about me</h2>
+						<h2>Clientes</h2>
 						<p>Is give may shall likeness made yielding spirit a itself togeth created after sea is in beast <br>
 							 beginning signs open god you're gathering ithe</p>
 					</div>
