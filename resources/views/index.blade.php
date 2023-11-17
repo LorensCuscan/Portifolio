@@ -16,7 +16,7 @@
 							<h1 class="text-uppercase">Lorens Cuscan</h1>
 							<h5 class="text-uppercase">FullStack PHP Developer</h5>
 							<div class="d-flex align-items-center">
-								<a class="primary_btn" href="#"><span>Me contrate</span></a>
+								<a class="primary_btn" href="https://wa.me/5511965453930?text=Olá,%20como%20posso%20te%20ajudar?"><span>Me contrate</span></a>
 								<a class="primary_btn tr-bg" href="{{ route('curriculo') }}"><span>Curriculo</span></a>
 							</div>
 						</div>
