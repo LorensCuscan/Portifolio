@@ -21,6 +21,29 @@
 	}
 	navbarFixed();
 
+	const toggleTrack = document.getElementById('toggleTrack');
+const toggleHandle = document.getElementById('toggleHandle');
+const toggleText = document.querySelector('.toggle-text');
+let isEnglish = false;
+
+toggleTrack.addEventListener('click', function(event) {
+  const clickPosition = event.clientX - toggleTrack.getBoundingClientRect().left;
+  const trackWidth = toggleTrack.clientWidth - toggleHandle.clientWidth;
+  const newPosition = Math.max(0, Math.min(trackWidth, clickPosition - (toggleHandle.clientWidth / 2)));
+  
+  if (newPosition >= trackWidth / 2) {
+    isEnglish = true;
+    toggleText.innerText = 'Inglês';
+    // Adicione aqui a lógica para alternar para o idioma Inglês
+  } else {
+    isEnglish = false;
+    toggleText.innerText = 'Português';
+    // Adicione aqui a lógica para alternar para o idioma Português
+  }
+  
+  toggleHandle.style.left = `${newPosition}px`;
+});
+
 	/*----------------------------------------------------*/
 	/*  MailChimp Slider
     /*----------------------------------------------------*/

@@ -25,6 +25,50 @@ Author E-mail: naimlasker@gmail.com
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+.language-toggle {
+  position: relative;
+  width: 30px; /* largura do controle deslizante */
+  height: 20px; /* altura do controle deslizante */
+  background-color: #5b4cc0;
+  border-radius: 40px;
+  cursor: pointer;
+  margin-left: 120px;
+}
+
+.toggle-track {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  width: calc(100% - 10px); /* comprimento da trilha */
+  height: 6px; /* altura da trilha */
+  background-color: #fff;
+}
+
+.toggle-handle {
+  position: absolute;
+  width: 18px; /* largura do manipulador */
+  height: 18px; /* altura do manipulador */
+  background-color: #000000;
+  border-radius: 50%; /* para criar uma forma redonda */
+  top: 50%;
+  left: 2px; /* altera a posição inicial do manipulador */
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: left 0.3s ease, width 0.3s ease, height 0.3s ease; /* transição suave da posição e tamanho do manipulador */
+}
+
+.toggle-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #333;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+
 
 .background_banner {
   position: absolute;
@@ -38,17 +82,7 @@ Author E-mail: naimlasker@gmail.com
 }
 
 
-.animation_8bit {
-  width: 400px; /* Ajuste conforme necessário */
-  height: 600px; /* Ajuste conforme necessário */
-  background-image: url('images/animations/Me.gif'); /* Caminho para sua animação 8-bit */
-  /* Adicione outros estilos conforme necessário */
-  /* Posicionamento à esquerda */
-  position: left;
-  margin-left: 200%;
-  top: 50%; /* Ajuste a posição vertical conforme necessário */
 
-}
 
 
 body {

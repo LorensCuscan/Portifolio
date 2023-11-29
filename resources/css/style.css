@@ -26,6 +26,48 @@ Author E-mail: naimlasker@gmail.com
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 
+.language-toggle {
+  position: relative;
+  width: 70px; /* largura do controle deslizante */
+  height: 30px; /* altura do controle deslizante */
+  background-color: #ccc;
+  border-radius: 30px; /* para criar uma forma redonda */
+  cursor: pointer;
+}
+
+.toggle-track {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  width: calc(100% - 10px); /* comprimento da trilha */
+  height: 6px; /* altura da trilha */
+  background-color: #fff;
+}
+
+.toggle-handle {
+  position: absolute;
+  width: 22px; /* largura do manipulador */
+  height: 22px; /* altura do manipulador */
+  background-color: #fff;
+  border-radius: 50%; /* para criar uma forma redonda */
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: left 0.3s ease; /* transição suave da posição do manipulador */
+}
+
+.toggle-text {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #333;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
 
 
 
