@@ -45,7 +45,7 @@
 		<div class="container">
 			<div class="row justify-content-start align-items-center">
 				<div class="col-lg-1">
-					<img class="animation_8bit" src="images/animations/Me.gif"></img>
+					<img class="" src="images/animations/programmer.gif"></img>
 				</div>
 				<div class="col-lg-5">
 					<div class="about_img">

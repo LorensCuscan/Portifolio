@@ -20,13 +20,31 @@
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
+
+	<!-- scripts --> 
+	<script src="
+https://cdn.jsdelivr.net/npm/jquery-ui-slider@1.12.1/jquery-ui.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/jquery-ui-slider@1.12.1/jquery-ui.min.css
+" rel="stylesheet">
 </head>
 
 <body>
 <header class="header_area">
+<form class="form">
+<div class="language-toggle">
+    <form method="POST" action="{{ route('switchLanguage', 'en') }}">
+        @csrf
+        <button type="submit">English</button>
+    </form>
+</div>
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light">
+		
+
 				<div class="container">
+					
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
