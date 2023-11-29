@@ -11,12 +11,18 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-7">
+						
 						<div class="banner_content">
+						
 							<h3 class="text-uppercase">Olá</h3>
+							
 							<h1 class="text-uppercase">Lorens Cuscan</h1>
+							
 							<h5 class="text-uppercase">FullStack PHP Developer</h5>
+							
 							<div class="d-flex align-items-center">
-								<a class="primary_btn" href="https://wa.me/5511965453930?text=Olá,%20como%20posso%20te%20ajudar?"><span>Me contrate</span></a>
+								
+								<a class="primary_btn" href="https://wa.me/5511965453930?"><span>Me contrate</span></a>
 								<a class="primary_btn tr-bg" href="{{ route('curriculo') }}"><span>Curriculo</span></a>
 							</div>
 						</div>
@@ -24,6 +30,7 @@
 					<div class="col-lg-5">
 						<div class="home_right_img">
 							<img class="" src="img/banner/home-right.png" alt="">
+							
 						</div>
 					</div>
 				
@@ -37,12 +44,14 @@
 	<section class="about_area section_gap">
 		<div class="container">
 			<div class="row justify-content-start align-items-center">
+				<div class="col-lg-1">
+					<img class="animation_8bit" src="images/animations/Me.gif"></img>
+				</div>
 				<div class="col-lg-5">
 					<div class="about_img">
 						<img class="" src="img/about-us.png" alt="">
 					</div>
 				</div>
-
 				<div class="offset-lg-1 col-lg-5">
 					<div class="main_title text-left">
 						<h2>Deixem-me <br>
@@ -134,7 +143,7 @@
 				</div>
 				<div class="offset-lg-2 col-lg-4 col-md-6">
 					<div class="client-info">
-						<div class="d-flex mb-50">
+						<div class="align-center">
 							<span class="lage">4</span>
 							<span class="smll">Anos como FullStack Developer</span>
 						</div>
@@ -213,13 +222,12 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 				</div>
 			</div>
 			<div class="filters portfolio-filter">
-				
 			</div>
 	
 			<div class="filters-content">
 				<div class="row portfolio-grid justify-content-center">
 					<div class="col-lg-4 col-md-6 all latest">
-						<div class="portfolio_box">
+					<div class="portfolio_box">
 							<div class="single_portfolio">
 								<img class="img-fluid w-100" src="img/portfolio/p1.jpg" alt="">
 								<div class="overlay"></div>
