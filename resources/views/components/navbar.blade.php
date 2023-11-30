@@ -10,7 +10,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Satner Portfolio</title>
+	<title>Lorens Portfolio</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -20,16 +20,16 @@
 	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
+	
 	<!-- scripts --> 
 
 <body>
 <header class="header_area">
-<div class="language-toggle" id="languageToggle">
-  <div class="toggle-track"></div>
-  <div class="toggle-handle" id="toggleHandle"></div>
-  <span class="toggle-text"></span>
-</div>
 		<div class="main_menu">
+		<label>
+			<input type="checkbox" />
+			<div class="switch-btn"></div>
+		</label>
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
