@@ -32,6 +32,7 @@
 				<input type="checkbox" id="myCheckbox" style="display: none;" />
 				<div  class="switch-btn" for="myCheckbox"></div>
 				<span class="left-text">pt-BR</span>
+				<span class="switch-btn" for="myCheckbox"></span>
 				<span class="left-text">en-US</span>
 				</label>
 					<!-- Brand and toggle get grouped for better mobile display -->

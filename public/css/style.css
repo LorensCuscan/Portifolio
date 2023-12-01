@@ -65,9 +65,19 @@ input[type=checkbox]:checked + .switch-btn {
 
 .left-text,
 .right-text {
-  font-size: 12px; /* tamanho do texto */
-  color: #333; /* cor do texto */
-  flex: 1; /* ocupa o espaço restante no contêiner */
+  position: absolute;
+  font-weight: lighter;
+  opacity: 0.7; /* Ajusta a opacidade para tornar a fonte mais fraca */
+  top: 50%; /* Ajuste a altura vertical */
+  transform: translateY(-50%);
+}
+
+.left-text {
+  left: -40px; /* Ajuste o valor para posicionar à esquerda */
+}
+
+.right-text {
+  right: -40px; /* Ajuste o valor para posicionar à direita */
 }
 
 
