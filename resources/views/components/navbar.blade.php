@@ -26,12 +26,14 @@
 <body>
 <header class="header_area">
 		<div class="main_menu">
-		<label>
-			<input type="checkbox" />
-			<div class="switch-btn"></div>
-		</label>
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
+				<label>
+				<input type="checkbox" id="myCheckbox" style="display: none;" />
+				<div  class="switch-btn" for="myCheckbox"></div>
+				<span class="left-text">pt-BR</span>
+				<span class="left-text">en-US</span>
+				</label>
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
