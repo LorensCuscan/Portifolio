@@ -22,9 +22,10 @@
 	<link rel="stylesheet" href="css/style.css">
 	
 	<!-- scripts --> 
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <body>
-<header class="header_area">
+	<header class="header_area">
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
@@ -32,7 +33,6 @@
 				<input type="checkbox" id="myCheckbox" style="display: none;" />
 				<div  class="switch-btn" for="myCheckbox"></div>
 				<span class="left-text">pt-BR</span>
-				<span class="switch-btn" for="myCheckbox"></span>
 				<span class="left-text">en-US</span>
 				</label>
 					<!-- Brand and toggle get grouped for better mobile display -->
@@ -59,3 +59,19 @@
 
 
 	<!--================ End Header Area =================-->
+
+	<script>
+		$(document).ready(function() {
+				$('#myCheckbox').change(function() {
+					if ($(this).is(':checked')) {
+						// Se o checkbox estiver marcado (switch ativado)
+						window.location.href = "{{ route('pt-br') }}"; // Redireciona para a rota pt-BR
+					} else {
+						// Se o checkbox não estiver marcado (switch desativado)
+						window.location.href = "{{ route('en-us') }}"; // Redireciona para a rota en-US
+					}
+				});
+			});
+	</script>
+</body>
+</html>
