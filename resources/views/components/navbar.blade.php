@@ -65,7 +65,7 @@
 				$('#myCheckbox').change(function() {
 					if ($(this).is(':checked')) {
 						// Se o checkbox estiver marcado (switch ativado)
-						window.location.href = "{{ route('en-US') }}"; // Redireciona para a rota pt-BR
+						window.location.href = "{{ route('/en-us') }}"; // Redireciona para a rota pt-BR
 					} else {
 						// Se o checkbox não estiver marcado (switch desativado)
 						window.location.href = "{{ route('pt-BR') }}"; // Redireciona para a rota en-US
