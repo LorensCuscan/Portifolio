@@ -27,5 +27,5 @@ Route::get('/about', [SobreController::class, 'about'])->name('about');
 Route::get('/contato', [ContatoController::class, 'contato'])->name('contato');
 Route::get('/portifolio', [PortifolioController::class, 'portifolio'])->name('portifolio');
 Route::get('/download-curriculo', [CurriculoController::class, 'curriculo'])->name('curriculo');
-Route::get('/en-us', [LanguageController::class, 'switch'])->name('switch');
+Route::get('/en-us', [LanguageController::class, 'switch'])->name('en-us');
 
