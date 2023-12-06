@@ -6,6 +6,7 @@ use App\Http\Controllers\SobreController;
 use App\Http\Controllers\ContatoController;
 use App\Http\Controllers\PortifolioController;
 use App\Http\Controllers\CurriculoController;
+use App\Http\Controllers\LanguageController;
 
 /*
 |--------------------------------------------------------------------------
