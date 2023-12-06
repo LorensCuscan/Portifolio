@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <body>
-<!--================ Start Header Area =================-->
+
 @include('components.navbar')
 
 	<!--================ Start Home Banner Area =================-->
@@ -14,7 +14,7 @@
 						
 						<div class="banner_content">
 						
-							<h3 class="text-uppercase">Olá</h3>
+							<h3 class="text-uppercase">Hi</h3>
 							
 							<h1 class="text-uppercase">Lorens Cuscan</h1>
 							

@@ -28,5 +28,15 @@ Route::get('/about', [SobreController::class, 'about'])->name('about');
 Route::get('/contato', [ContatoController::class, 'contato'])->name('contato');
 Route::get('/portifolio', [PortifolioController::class, 'portifolio'])->name('portifolio');
 Route::get('/download-curriculo', [CurriculoController::class, 'curriculo'])->name('curriculo');
+
+
+Route::controller(LanguageController::class)->group(function () {
+    Route::get('/en-us', [LanguageController::class, 'switch'])->name('en-us');
+    Route::get('/en-us/about', [LanguageController::class, 'about'])->name('about');
+    Route::get('/en-us', [LanguageController::class, 'switch'])->name('en-us');
+    Route::get('/en-us', [LanguageController::class, 'switch'])->name('en-us');
+    Route::get('/en-us', [LanguageController::class, 'switch'])->name('en-us');
+   
+});
 Route::get('/en-us', [LanguageController::class, 'switch'])->name('en-us');
 
