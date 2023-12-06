@@ -47,9 +47,9 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-end">
 							<li class="nav-item active"><a class="nav-link" href="{{ route('index') }}">Home</a></li>
-							<li class="nav-item"><a class="nav-link" href="{{ route('about') }}">Sobre</a></li>
+							<li class="nav-item"><a class="nav-link" href="{{ route('about') }}">About me</a></li>
 							<li class="nav-item"><a class="nav-link" href="{{ route('portifolio') }}">Portfolio</a></li>
-							<li class="nav-item"><a class="nav-link" href="{{ route('contato') }}">Contato</a></li>
+							<li class="nav-item"><a class="nav-link" href="{{ route('contato') }}">Contact</a></li>
 						</ul>
 					</div>
 				</div>
