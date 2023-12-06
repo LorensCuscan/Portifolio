@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <body>
 
-@include('components.navbar')
+@include('components.engnavbar')
 
 	<!--================ Start Home Banner Area =================-->
 	<section class="home_banner_area">
