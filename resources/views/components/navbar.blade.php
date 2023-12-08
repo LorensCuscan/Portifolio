@@ -23,6 +23,7 @@
 	
 	<!-- scripts --> 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
 
 <body>
 	<header class="header_area">
@@ -60,15 +61,43 @@
 
 	<!--================ End Header Area =================-->
 
+	
+
 	<script>
-		$(document).ready(function() {
-				$('#myCheckbox').change(function() {
-					if ($(this).is(':checked')) {
-						// Se o checkbox estiver marcado (switch ativado)
-						window.location.href = "{{ route('en-us') }}"; // Redireciona para a rota pt-BR
-					}
-				});
-			});
+
+		
+    $(document).ready(function() {
+        $('#myCheckbox').change(function() {
+            var language = $(this).is(':checked') ? 'en-us' : 'pt-br';
+            $('.nav-item a').each(function() {
+                var href = $(this).attr('href');
+                $(this).attr('href', '/' + language + href.substr(3));
+            });
+        });
+    });
 	</script>
+
+<script>
+    $(document).ready(function() {
+        alert("jQuery está funcionando!");
+        
+        $('#myCheckbox').change(function() {
+            alert("Checkbox mudou!");
+            
+            var language = $(this).is(':checked') ? 'en-us' : 'pt-br';
+            
+            $('.nav-item a').each(function() {
+                var href = $(this).attr('href');
+                alert("index" + href);
+                
+                $(this).attr('href', '/' + language + href.substr(3));
+                
+                var newHref = $(this).attr('href');
+                alert("index/en-us" + newHref);
+            });
+        });
+    });
+</script>
+
 </body>
 </html>

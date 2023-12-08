@@ -6,15 +6,13 @@ use Illuminate\Http\Request;
 
 class LanguageController extends Controller
 {
-    public function switch(){
+    public function switchToEnglish(){
         return view ('/en-us/index');
-       
     }
 
-    public function about(){
+    public function aboutInEnglish(){
         return view ('/en-us/about');
-       
     }
 
-
+    // Adicione outras funções para outras páginas em inglês conforme necessário
 }
