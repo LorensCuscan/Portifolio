@@ -12,17 +12,18 @@
 	<link rel="icon" href="img/favicon.png" type="image/png">
 	<title>Lorens Portfolio</title>
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="vendors/linericon/style.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/linericon/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/owl-carousel/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('vendors/nice-select/css/nice-select.css') }}">
 	<!-- main css -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
 	
 	<!-- scripts --> 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/src/js.cookie.min.js"></script>
 </head>
 
 <body>
@@ -31,10 +32,10 @@
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
 				<label>
-				<input type="checkbox" id="myCheckbox" style="display: none;" />
-                        <div class="switch-btn" for="myCheckbox"></div>
-                        <span class="left-text">pt-BR</span>
-                        <span class="right-text">en-US</span>
+					<input type="checkbox" id="myCheckbox" style="display: none;" />
+					<div class="switch-btn" for="myCheckbox"></div>
+					<span class="left-text">pt-BR</span>
+					<span class="right-text">en-US</span>
 				</label>
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
