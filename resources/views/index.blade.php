@@ -26,15 +26,15 @@
 							
 							<h5 class="text-uppercase">FullStack PHP Developer</h5>
 
-							<div class="offset-lg-11 col-lg-12 col-md-12 ">
+							<div class="offset-lg-11 col-lg-12 col-md-12">
 							<div class="custom-margin">
 								<div class="client-info">
-								<span class="lage">4</span>
-								<span class="smll">Anos como Desenvolvedor</span>
+									<span class="lage">4</span>
+									<span class="smll">Anos como Desenvolvedor</span>
+								</div>
 							</div>
-						</div>
-					</div>
-							
+							</div>
+													
 							<div class="d-flex align-items-center">
 
 							
