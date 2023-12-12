@@ -32,9 +32,9 @@
 				<div class="container">
 				<label>
 				<input type="checkbox" id="myCheckbox" style="display: none;" />
-				<div  class="switch-btn" for="myCheckbox"></div>
-				<span class="left-text">pt-BR</span>
-				<span class="left-text">en-US</span>
+                        <div class="switch-btn" for="myCheckbox"></div>
+                        <span class="left-text">pt-BR</span>
+                        <span class="right-text">en-US</span>
 				</label>
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
@@ -62,42 +62,37 @@
 	<!--================ End Header Area =================-->
 
 	
-
 	<script>
+        $(document).ready(function() {
+            $('#myCheckbox').change(function() {
+                var language = $(this).is(':checked') ? 'en' : 'pt'; // Alteração na definição do idioma
 
-		
-    $(document).ready(function() {
-        $('#myCheckbox').change(function() {
-            var language = $(this).is(':checked') ? 'en-us' : 'pt-br';
-            $('.nav-item a').each(function() {
-                var href = $(this).attr('href');
-                $(this).attr('href', '/' + language + href.substr(3));
+                // Dicionário de tradução
+                var translations = {
+                    'Home': { 'pt': 'Home', 'en': 'Home' },
+                    'Sobre': { 'pt': 'Sobre', 'en': 'About' },
+                    'Portfolio': { 'pt': 'Portfólio', 'en': 'Portfolio' },
+                    'Contato': { 'pt': 'Contato', 'en': 'Contact' }
+                    // Adicione mais traduções conforme necessário
+                };
+
+				$('.nav-item a').each(function() {
+                var text = $(this).text().trim();
+                $(this).text(translations[text][language]); // Altera o texto do link
+
+                var href = $(this).attr('href').split('/');
+                href[1] = translations[text][language];
+                $(this).attr('href', href.join('/'));
+            });
+
+            // Redirecionamento para a página em inglês ao clicar no botão
+            if ($(this).is(':checked')) {
+                window.location.href = '/englishPage'; // Substitua 'englishPage' pela sua rota em Laravel
+            }
             });
         });
-    });
-	</script>
+    </script>
 
-<script>
-    $(document).ready(function() {
-        alert("jQuery está funcionando!");
-        
-        $('#myCheckbox').change(function() {
-            alert("Checkbox mudou!");
-            
-            var language = $(this).is(':checked') ? 'en-us' : 'pt-br';
-            
-            $('.nav-item a').each(function() {
-                var href = $(this).attr('href');
-                alert("index" + href);
-                
-                $(this).attr('href', '/' + language + href.substr(3));
-                
-                var newHref = $(this).attr('href');
-                alert("index/en-us" + newHref);
-            });
-        });
-    });
-</script>
 
 </body>
 </html>

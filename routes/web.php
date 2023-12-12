@@ -33,9 +33,6 @@ Route::get('/download-curriculo', [CurriculoController::class, 'curriculo'])->na
 Route::controller(LanguageController::class)->group(function () {
     Route::get('/en-us', [LanguageController::class, 'switchToEnglish'])->name('switch-to-english');
     Route::get('/en-us/about', [LanguageController::class, 'aboutInEnglish'])->name('about-in-english');;
-
-   
-   
 });
 
 
