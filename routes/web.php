@@ -30,9 +30,14 @@ Route::get('/portifolio', [PortifolioController::class, 'portifolio'])->name('po
 Route::get('/download-curriculo', [CurriculoController::class, 'curriculo'])->name('curriculo');
 
 
-Route::controller(LanguageController::class)->group(function () {
-    Route::get('/en-us', [LanguageController::class, 'switchToEnglish'])->name('switch-to-english');
-    Route::get('/en-us/about', [LanguageController::class, 'aboutInEnglish'])->name('about-in-english');;
+Route::prefix('en-us')->group(function () {
+    Route::get('/', function () {
+        return redirect('/en-us/index');
+    })->name('switch-to-english');
+
+    Route::get('/index', [IndexController::class, 'index'])->name('index-en');
+    Route::get('/about', [SobreController::class, 'aboutInEnglish'])->name('about-en');
+    // Adicione mais rotas em inglês conforme necessário
 });
 
 

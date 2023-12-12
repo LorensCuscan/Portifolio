@@ -81,17 +81,17 @@
                 $(this).text(translations[text][language]); // Altera o texto do link
 
                 var href = $(this).attr('href').split('/');
-                href[1] = translations[text][language];
-                $(this).attr('href', href.join('/'));
+                href[1] = language; // Definindo o idioma no href
+                href[2] = translations[text][language]; // Definindo a rota no href
+                $(this).attr('href', '/' + href.join('/'));
             });
 
-            // Redirecionamento para a página em inglês ao clicar no botão
             if ($(this).is(':checked')) {
-                window.location.href = '/englishPage'; // Substitua 'englishPage' pela sua rota em Laravel
+                window.location.href = '/en-us/index'; // Redirecionamento para o idioma inglês
             }
-            });
         });
-    </script>
+    });
+</script>
 
 
 </body>
