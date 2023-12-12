@@ -83,12 +83,18 @@
             <span class="lage">4</span>
             <span class="smll">Anos como FullStack Developer</span>
         </div>
-        <div class="call-now d-flex">
-                <span class="fa fa-phone offset-lg-5 col-lg-8 col-md-9"></span>
+        <div class="offset-lg-2 col-lg-8 col-md-9">
+        <div class="client-info row">
+            <div class="col-md-6">
+                <div class="call-now col-md-6">
+                    <span class="fa fa-phone"></span>
+                </div>
             </div>
-            <div class="offset-lg-5 col-lg-8 col-md-9">
-                <p>Me ligue!</p>
-                <h3>(+55)11 96545-3930</h3>
+            <div class="col-md-6">
+                <div class="ml-15">
+                    <p>Me ligue!</p>
+                    <h3>(+55)11 96545-3930</h3>
+                </div>
             </div>
         </div>
     </div>
