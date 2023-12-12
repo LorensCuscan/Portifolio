@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
     <link rel="stylesheet" href="{{ asset('vendors/nice-select/css/nice-select.css') }}">
 	<!-- main css -->
-	<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+	<link rel="stylesheet" href="{{ asset('css/style.css') }}">.
 	
 	<!-- scripts --> 
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

@@ -23,11 +23,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index', [IndexController::class, 'index'])->name('index');
-Route::get('/about', [SobreController::class, 'about'])->name('about');
-Route::get('/contato', [ContatoController::class, 'contato'])->name('contato');
-Route::get('/portifolio', [PortifolioController::class, 'portifolio'])->name('portifolio');
-Route::get('/download-curriculo', [CurriculoController::class, 'curriculo'])->name('curriculo');
+Route::get('pt-br/index', [IndexController::class, 'index'])->name('index');
+Route::get('pt-br/about', [SobreController::class, 'about'])->name('about');
+Route::get('pt-br/contato', [ContatoController::class, 'contato'])->name('contato');
+Route::get('pt-br/portifolio', [PortifolioController::class, 'portifolio'])->name('portifolio');
+Route::get('pt-br/download-curriculo', [CurriculoController::class, 'curriculo'])->name('curriculo');
 
 
 Route::prefix('en-us')->group(function () {

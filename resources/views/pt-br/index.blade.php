@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <body>
 <!--================ Start Header Area =================-->
-@include('components.navbar')
+@include('components.navbar.navbar')
 
 	<!--================ Start Home Banner Area =================-->
 	<section class="home_banner_area">

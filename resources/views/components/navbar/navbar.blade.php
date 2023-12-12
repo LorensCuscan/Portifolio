@@ -76,7 +76,7 @@
                     // Adicione mais traduções conforme necessário
                 };
 
-				$('.nav-item a').each(function() {
+				 $('.nav-item a').each(function() {
                 var text = $(this).text().trim();
                 $(this).text(translations[text][language]); // Altera o texto do link
 
