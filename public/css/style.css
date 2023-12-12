@@ -2597,19 +2597,39 @@ h6 {
       -moz-filter: brightness(0%);
       -webkit-filter: brightness(0%); }
 
+
+      
 .client-info {
   padding: 25px 30px;
-  background: #faf8ff;
+  opacity: 0; /* Comece com a opacidade 0 para o efeito de fade-in */
+  animation: fadeInAnimation 2s ease forwards; /* Duração da animação: 1 segundo */
   text-align: center;
   position: relative;
   margin-top: 25px; }
+
   @media only screen and (max-width: 991px) {
     .client-info {
       margin-top: 50px; } }
-  @media (max-width: 575px) {
-    .client-info {
-      padding-top: 50px; } }
+
+
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+     
+
+      .client-info:hover .lage {
+        animation: zoomIn 0.3s ease forwards;
+      }
+
   .client-info:before {
+    background: transparent; /* ou background: none; */
+    background-image: none;
     content: '';
     position: absolute;
     top: -25px;
@@ -2619,24 +2639,44 @@ h6 {
     width: 175px; }
     @media (max-width: 575px) {
       .client-info:before {
+        background: transparent; /* ou background: none; */
         background: none; } }
+
   @media (max-width: 575px) {
     .client-info .d-flex {
       -ms-flex-align: center;
       align-items: center; } }
+
   .client-info .lage {
+    z-index: 9;
+    transition: transform 0.3s ease;
     color: #854fee;
     font-family: "Rubik", sans-serif;
     font-size: 100px;
     font-weight: 700;
     line-height: 85px;
     position: relative;
-    z-index: 9; }
+    z-index: 9;
+   
+    transition: transform 0.3s ease; 
+  }
+
+  @keyframes zoomIn {
+    0% {
+      transform: scale(1); /* Tamanho original */
+    }
+    100% {
+      transform: scale(1.2); /* Tamanho aumentado em 20% */
+    }
+  }
+
+    
+    
   .client-info .smll {
     text-align: left;
     color: #000000;
     font-family: "Rubik", sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     margin-left: 20px; }
 
 .call-now {

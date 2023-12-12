@@ -19,13 +19,25 @@
 						
 						<div class="banner_content">
 						
-							<h3 class="text-uppercase">Olá</h3>
+							<h3 class="text-uppercase">Olá,</h3>
 							
 							<h1 class="text-uppercase">Lorens Cuscan</h1>
+
 							
 							<h5 class="text-uppercase">FullStack PHP Developer</h5>
+
+							<div class="offset-lg-11 col-lg-12 col-md-12 ">
+							<div class="custom-margin">
+								<div class="client-info">
+								<span class="lage">4</span>
+								<span class="smll">Anos como Desenvolvedor</span>
+							</div>
+						</div>
+					</div>
 							
 							<div class="d-flex align-items-center">
+
+							
 								
 								<a class="primary_btn" href="https://wa.me/5511965453930?"><span>Me contrate</span></a>
 								<a class="primary_btn tr-bg" href="{{ route('curriculo') }}"><span>Curriculo</span></a>
@@ -77,30 +89,8 @@
 
 	<!--================ Srart Brand Area =================-->
 	
-	<div class="offset-lg-5 col-lg-8 col-md-9">
-        <div class="custom-margin">
-            <div class="client-info d-flex justify-content-center">
-            <span class="lage">4</span>
-            <span class="smll">Anos como FullStack Developer</span>
-        </div>
-        <div class="offset-lg-2 col-lg-8 col-md-9">
-        <div class="client-info row">
-            <div class="col-md-6">
-                <div class="call-now col-md-6">
-                    <span class="fa fa-phone"></span>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="ml-15">
-                    <p>Me ligue!</p>
-                    <h3>(+55)11 96545-3930</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+	
 	<!--================ End Brand Area =================-->
-
 	<!--================ Start Features Area =================-->
 	<section class="features_area">
 		<div class="container">

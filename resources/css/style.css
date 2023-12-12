@@ -2551,7 +2551,7 @@ h6 {
   height: 100px;
   cursor: pointer;
   margin-bottom: 30px;
-  border: 1px solid #eeeeee;
+  border: 1px solid #ffffff;
   box-shadow: none;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
@@ -2589,7 +2589,7 @@ h6 {
 
 .client-info {
   padding: 25px 30px;
-  background: #faf8ff;
+  background-image: none !important;
   text-align: center;
   position: relative;
   margin-top: 25px; }
@@ -2604,12 +2604,12 @@ h6 {
     position: absolute;
     top: -25px;
     left: -50px;
-    background: url(../img/client-info-bg.png) no-repeat;
+    background-image: none !important;
     height: 175px;
     width: 175px; }
     @media (max-width: 575px) {
       .client-info:before {
-        background: none; } }
+        background-image: none !important; } }
   @media (max-width: 575px) {
     .client-info .d-flex {
       -ms-flex-align: center;
