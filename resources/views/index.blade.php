@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+<style>
+        .custom-margin {
+            margin-top: -140px; /* Ajuste o valor conforme necessário */
+        }
+    </style>
 <body>
 <!--================ Start Header Area =================-->
-@include('components.navbar.navbar')
+@include('components.navbar')
 
 	<!--================ Start Home Banner Area =================-->
 	<section class="home_banner_area">
@@ -54,10 +59,10 @@
 				</div>
 				<div class="offset-lg-1 col-lg-5">
 					<div class="main_title text-left">
-						<h2>Deixem-me <br>
-							me apresentar a voces <br></h2>
+						<h2>Quem Sou Eu?<br>
+							 <br></h2>
 						<p>
-						Com uma base sólida, um olhar perspicaz e uma abordagem proativa, estou preparado para enfrentar desafios complexos e superar obstáculos. A tecnologia é minha paixão, e meu compromisso é trazer inovação, qualidade e eficiência para cada projeto que abraço.
+						Com uma base sólida, um olhar perspicaz e uma abordagem proativa, estou preparado para enfrentar desafios complexos e superar obstáculos. Meu compromisso é trazer inovação, qualidade e eficiência para cada projeto que abraço.
 						</p>
 						<p>
 						Estou comprometido em oferecer não apenas soluções, mas sim experiências transformadoras. Meu compromisso é entregar não apenas um produto final, mas sim uma solução que ultrapasse as expectativas, impactando positivamente a vida e os negócios dos meus clientes.
@@ -71,96 +76,23 @@
 	<!--================ End About Us Area =================-->
 
 	<!--================ Srart Brand Area =================-->
-	<section class="brand_area section_gap_bottom">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo1.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo2.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo3.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo4.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo5.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo6.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo7.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo8.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6">
-							<div class="single-brand-item d-table">
-								<div class="d-table-cell text-center">
-									<img src="img/brands/logo9.png" alt="">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="offset-lg-2 col-lg-4 col-md-6">
-					<div class="client-info">
-						<div class="align-center">
-							<span class="lage">4</span>
-							<span class="smll">Anos como FullStack Developer</span>
-						</div>
-						<div class="call-now d-flex">
-							<div>
-								<span class="fa fa-phone"></span>
-							</div>
-							<div class="ml-15">
-								<p>Me ligue!</p>
-								<h3>(+55)11 96545-3930</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	
+	<div class="offset-lg-5 col-lg-8 col-md-9">
+        <div class="custom-margin">
+            <div class="client-info d-flex justify-content-center">
+            <span class="lage">4</span>
+            <span class="smll">Anos como FullStack Developer</span>
+        </div>
+        <div class="call-now d-flex">
+                <span class="fa fa-phone offset-lg-5 col-lg-8 col-md-9"></span>
+            </div>
+            <div class="offset-lg-5 col-lg-8 col-md-9">
+                <p>Me ligue!</p>
+                <h3>(+55)11 96545-3930</h3>
+            </div>
+        </div>
+    </div>
+</div>
 	<!--================ End Brand Area =================-->
 
 	<!--================ Start Features Area =================-->
@@ -170,7 +102,6 @@
 				<div class="col-lg-8 text-center">
 					<div class="main_title">
 						<h2>Serviços oferecidos </h2>
-						
 					</div>
 				</div>
 			</div>
@@ -223,7 +154,6 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 			</div>
 			<div class="filters portfolio-filter">
 			</div>
-	
 			<div class="filters-content">
 				<div class="row portfolio-grid justify-content-center">
 					<div class="col-lg-4 col-md-6 all latest">

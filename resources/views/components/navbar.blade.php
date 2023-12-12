@@ -31,12 +31,7 @@
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-lg navbar-light">
 				<div class="container">
-				<label>
-					<input type="checkbox" id="myCheckbox" style="display: none;" />
-					<div class="switch-btn" for="myCheckbox"></div>
-					<span class="left-text">pt-BR</span>
-					<span class="right-text">en-US</span>
-				</label>
+				
 					<!-- Brand and toggle get grouped for better mobile display -->
 					<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -63,36 +58,7 @@
 	<!--================ End Header Area =================-->
 
 	
-	<script>
-        $(document).ready(function() {
-            $('#myCheckbox').change(function() {
-                var language = $(this).is(':checked') ? 'en' : 'pt'; // Alteração na definição do idioma
 
-                // Dicionário de tradução
-                var translations = {
-                    'Home': { 'pt': 'Home', 'en': 'Home' },
-                    'Sobre': { 'pt': 'Sobre', 'en': 'About' },
-                    'Portfolio': { 'pt': 'Portfólio', 'en': 'Portfolio' },
-                    'Contato': { 'pt': 'Contato', 'en': 'Contact' }
-                    // Adicione mais traduções conforme necessário
-                };
-
-				 $('.nav-item a').each(function() {
-                var text = $(this).text().trim();
-                $(this).text(translations[text][language]); // Altera o texto do link
-
-                var href = $(this).attr('href').split('/');
-                href[1] = language; // Definindo o idioma no href
-                href[2] = translations[text][language]; // Definindo a rota no href
-                $(this).attr('href', '/' + href.join('/'));
-            });
-
-            if ($(this).is(':checked')) {
-                window.location.href = '/en-us/index'; // Redirecionamento para o idioma inglês
-            }
-        });
-    });
-</script>
 
 
 </body>

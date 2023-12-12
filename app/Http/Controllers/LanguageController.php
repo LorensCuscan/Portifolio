@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class LanguageController extends Controller
 {
     public function switchToEnglish(){
-        return view ('index-en');
+        return view ('en-us/index-en');
     }
 
     public function aboutInEnglish(){
