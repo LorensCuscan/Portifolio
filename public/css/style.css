@@ -2563,7 +2563,7 @@ h6 {
       object-fit: cover;
       max-width: 100%;
       margin-top: -350px; /* Ajuste para cobrir a área desejada */
-      transform: scale(1.2, 1) translateX(-40px);
+      transform: scale(1.2, 1) translateX(-25px);
   }
 
 /* End Features Area css
@@ -2614,6 +2614,7 @@ h6 {
 
       
 .client-info {
+  white-space: nowrap;
   padding: 25px 30px;
   opacity: 0; /* Comece com a opacidade 0 para o efeito de fade-in */
   animation: fadeInAnimation 2s ease forwards; /* Duração da animação: 1 segundo */
@@ -2682,7 +2683,6 @@ h6 {
   font-weight: 700;
   line-height: 85px;
   position: relative;
-
   transition: transform 0.3s ease; /* Adicionando a transição para o hover */
 }
 
@@ -2698,8 +2698,8 @@ h6 {
     text-align: left;
     color: #000000;
     font-family: "Rubik", sans-serif;
-    font-size: 30px;
-    margin-left: 20px; }
+    font-size: 20px;
+    margin-left: 10px; }
 
 .call-now {
   padding-top: 50px;

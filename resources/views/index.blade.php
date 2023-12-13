@@ -26,14 +26,7 @@
 							
 							<h5 class="text-uppercase">FullStack PHP Developer</h5>
 
-							<div class="offset-lg-11 col-lg-12 col-md-12">
-							<div class="custom-margin">
-								<div class="client-info">
-									<span class="lage">4</span>
-									<span class="smll">Anos como Desenvolvedor</span>
-								</div>
-							</div>
-							</div>
+							
 													
 							<div class="d-flex align-items-center">
 
@@ -71,10 +64,20 @@
 
 
 	<!--================ Start About Us Area =================-->
-	<section class="about_area section_gap">
+	<section class="about_area section_gap">		
 		<div class="container">
 			<div class="row justify-content-start align-items-center">
 				<div class="col-lg-1">
+				<div class="offset-lg-8 col-lg-12 col-md-8">
+							<div class="custom-margin">
+								<div class="client-info">
+									<span class="lage">4</span>
+									<span class="smll">Anos trazendo flexibilidade, segurança </span>
+									<br>
+									<span class="smll">e creatividade para todo trabalho digital</span>		
+								</div>
+							</div>
+							</div>
 					<img class="" src="images/animations/programmer.gif"></img>
 				</div>
 				<div class="col-lg-5">
