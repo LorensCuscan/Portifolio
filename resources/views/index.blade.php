@@ -33,7 +33,7 @@
 							
 								
 								<a class="primary_btn" href="https://wa.me/5511965453930?"><span>Entre em contato!</span></a>
-								<a class="primary_btn tr-bg" href="{{ route('curriculo') }}"><span>Curriculo</span></a>
+								<a class="primary_btn tr-bg" href="{{ route('curriculo') }}"><span>Projetos!</span></a>
 							</div>
 						</div>
 					</div>
@@ -44,7 +44,7 @@
 		</div>
 	</section>
 	<!--================ End Home Banner Area =================-->
-<
+
 	<section class="banner_vertical_area">
     <div class="container position-relative">
         <div class="row justify-content-center">
@@ -77,7 +77,7 @@
 								</div>
 							</div>
 							</div>
-					<img class="" src="images/animations/programmer.gif"></img>
+					
 				</div>
 				<div class="col-lg-5">
 					<div class="about_img">
@@ -89,19 +89,25 @@
 						<h2>Quem Sou Eu?<br>
 							 <br></h2>
 						<p>
+							<div class="about-me-text">
 						Com uma base sólida, um olhar perspicaz e uma abordagem proativa, estou preparado para enfrentar desafios complexos e superar obstáculos. Meu compromisso é trazer inovação, qualidade e eficiência para cada projeto que abraço.
 						</p>
 						<p>
 						Estou comprometido em oferecer não apenas soluções, mas sim experiências transformadoras. Meu compromisso é entregar não apenas um produto final, mas sim uma solução que ultrapasse as expectativas, impactando positivamente a vida e os negócios dos meus clientes.
 						</p>
 						<a class="primary_btn" href="{{ route('curriculo') }}"><span>Download Curriculo</span></a>
+						</div>
 					</div>
+					
 				</div>
+				
 			</div>
+			
 		</div>
+		
 	</section>
 	<!--================ End About Us Area =================-->
-
+	<img class="programmer" src="images/animations/programmer.gif"></img>
 	<!--================ Srart Brand Area =================-->
 	
 	
@@ -111,7 +117,7 @@
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-8 text-center">
-					<div class="main_title">
+					<div class="services-text">
 						<h2>Serviços oferecidos </h2>
 					</div>
 				</div>

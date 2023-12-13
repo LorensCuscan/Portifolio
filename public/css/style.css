@@ -30,6 +30,8 @@ Author E-mail: naimlasker@gmail.com
  opacity: 0;
 }
 
+
+
 .switch-btn {
   width: 40px;
   height: 20px;
@@ -58,6 +60,14 @@ input[type=checkbox]:checked + .switch-btn:before {
  
 }
 
+.programmer{
+  margin-top: -1200px;
+  margin-left: 100px;
+}
+
+.services-text{
+  margin-top: 200px;
+}
 
 input[type=checkbox]:checked + .switch-btn {
  
@@ -81,13 +91,17 @@ input[type=checkbox]:checked + .switch-btn {
   right: -40px; /* Ajuste o valor para posicionar à direita */
 }
 
+.about-me-text{
+  color: #ffffff;
+}
+
 
 body {
   line-height: 26px;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #ffffff;
+  color: #000000;
   background: url(../img/body-bg.png) no-repeat center; }
 
 h1 {
@@ -95,12 +109,14 @@ h1 {
   font-weight: 500;
   color: #000000;
 }
-h2,
+h2{
+  color: #ffffff;
+}
 h3{
   margin-top: 70px;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
-  color: #fffefe;
+  color: #000000;
 }
 h4,
 h5,
@@ -176,6 +192,7 @@ button:focus {
     .main_title {
       margin-bottom: 50px; } }
   .main_title h2 {
+    margin-top: -600px;
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 15px;
@@ -191,11 +208,15 @@ button:focus {
   .main_title p {
     margin-bottom: 0px; }
     @media (max-width: 991px) {
+      
       .main_title p br {
+        
         display: none; } }
   .main_title.white h2 {
+    
     color: #fff; }
   .main_title.white p {
+  
     color: #fff;
     opacity: .6; }
 
@@ -260,7 +281,7 @@ button:focus {
       background-image: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
       border: double 2px transparent;
       color: #ffffff;
-      box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3); }
+      box-shadow: 0px 10px 30px rgba(255, 255, 255, 0.3); }
   .primary_btn:hover {
     background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #4458dc, #854fee);
     border: 2px solid #854fee;
@@ -428,6 +449,7 @@ button:focus {
       vertical-align: middle;
       align-self: center; }
     .home_banner_area .banner_inner .banner_content {
+      margin-top: -100px;
       text-align: left; }
       @media (max-width: 991px) {
         .home_banner_area .banner_inner .banner_content {
@@ -2564,7 +2586,7 @@ h6 {
 
     .vertical-banner {
       position: absolute;
-      margin-top: 220px;
+      margin-top: -245px;
       border-radius: 20px;
       margin-right: -110px;
       z-index: -1;
@@ -2632,7 +2654,7 @@ h6 {
   animation: fadeInAnimation 2s ease forwards; /* Duração da animação: 1 segundo */
   text-align: center;
   position: relative;
-  margin-top: 25px; }
+  margin-top: 320px; }
 
   @media only screen and (max-width: 991px) {
     .client-info {
