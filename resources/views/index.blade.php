@@ -44,18 +44,31 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-lg-5">
-						<div class="home_right_img">
-							<img class="" src="img/banner/home-right.png" alt="">
-							
-						</div>
-					</div>
+				
 				
 				</div>
 			</div>
 		</div>
 	</section>
 	<!--================ End Home Banner Area =================-->
+
+	<section class="banner_vertical_area">
+    <div class="container position-relative">
+        <div class="row justify-content-center">
+            <!-- Conteúdo principal -->
+            <div class="col-lg-6">
+                <!-- Seu conteúdo existente -->
+            </div>
+            <div class="col-lg-5">
+                <div class="position-relative">
+                    <!-- A imagem do banner vertical -->
+                    <img src="images/banner/vertical-banner.webp" alt="Banner Vertical" class="vertical-banner">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 	<!--================ Start About Us Area =================-->
 	<section class="about_area section_gap">
