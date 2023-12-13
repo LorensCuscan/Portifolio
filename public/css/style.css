@@ -61,7 +61,7 @@ input[type=checkbox]:checked + .switch-btn:before {
 }
 
 .programmer{
-  margin-top: -1200px;
+  margin-top: -1450px;
   margin-left: 100px;
 }
 
@@ -186,21 +186,24 @@ button:focus {
 
 /* Main Title Area css
 ============================================================================================ */
+
+
 .main_title {
   text-align: center;
   margin-bottom: 200px; }
   @media (max-width: 1199px) {
     .main_title {
-      margin-bottom: 50px; } }
+      margin-bottom: 0px; } }
   .main_title h2 {
-    margin-top: -570px;
+    margin-top: -650px;
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: -95px;
+    
     line-height: 50px;
     text-transform: uppercase; }
     @media (max-width: 991px) {
       .main_title h2 br {
+       
         display: none; } }
     @media (max-width: 767px) {
       .main_title h2 {
