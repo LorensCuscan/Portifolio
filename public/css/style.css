@@ -87,15 +87,24 @@ body {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  color: #777777;
+  color: #ffffff;
   background: url(../img/body-bg.png) no-repeat center; }
 
-h1,
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #000000;
+}
 h2,
-h3,
+h3{
+  margin-top: 70px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #fffefe;
+}
 h4,
 h5,
-h6 {
+.intro-text {
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   color: #000000; }
@@ -2555,11 +2564,11 @@ h6 {
 
     .vertical-banner {
       position: absolute;
-      margin-top: 100px;
+      margin-top: 220px;
       border-radius: 20px;
       margin-right: -110px;
       z-index: -1;
-      height: 90vh; 
+      height: 80vh; 
       width: 550px;
       object-fit: cover;
       max-width: 300%;

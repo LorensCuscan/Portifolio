@@ -19,7 +19,7 @@
 						
 						<div class="banner_content">
 						
-							<h3 class="text-uppercase">Olá,</h3>
+							<h3 class="intro-text">Olá,</h3>
 							
 							<h1 class="animate__animated animate__bounceInLeft">Lorens Cuscan</h1>
 
@@ -44,7 +44,7 @@
 		</div>
 	</section>
 	<!--================ End Home Banner Area =================-->
-
+<
 	<section class="banner_vertical_area">
     <div class="container position-relative">
         <div class="row justify-content-center">
