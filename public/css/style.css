@@ -2563,7 +2563,7 @@ h6 {
       object-fit: cover;
       max-width: 100%;
       margin-top: -350px; /* Ajuste para cobrir a área desejada */
-      transform: scale(1.1, 1) translateX(-40px);
+      transform: scale(1.2, 1) translateX(-40px);
   }
 
 /* End Features Area css
