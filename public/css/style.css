@@ -61,7 +61,7 @@ input[type=checkbox]:checked + .switch-btn:before {
 }
 
 .programmer{
-  margin-top: -1450px;
+  margin-top: -1250px;
   margin-left: 100px;
 }
 
@@ -72,9 +72,16 @@ input[type=checkbox]:checked + .switch-btn:before {
 }
 
 .services-text h2{
+  font-size: 50px;
+  transition: transform .2s; /* Animation */
+  display: inline-block;
+  color: #854fee;
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 85px;
+  position: relative;
   margin-top: -450px;
-  color: #000;
-  
 }
 
 input[type=checkbox]:checked + .switch-btn {
@@ -194,7 +201,13 @@ button:focus {
 
 /* Main Title Area css
 ============================================================================================ */
-
+.main_text h2 {
+  margin-top: -100px;
+  font-size: 36px;
+  font-weight: 700;
+  color:rgba(0, 0, 0, 0.8);
+  line-height: 50px;
+  text-transform: uppercase; }
 
 .main_title {
   text-align: center;
@@ -203,7 +216,7 @@ button:focus {
     .main_title {
       margin-bottom: 0px; } }
   .main_title h2 {
-    margin-top: -650px;
+    margin-top: -600px;
     font-size: 36px;
     font-weight: 700;
     

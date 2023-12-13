@@ -71,8 +71,7 @@
 				<div class="offset-lg-8 col-lg-12 col-md-8">
 							<div class="custom-margin">
 								<div class="client-info">
-									<span class="lage">4</span>
-									<span class="smll">Anos desenvolvendo soluções que redefinem possibilidades! </span><br>
+							
 								
 								</div>
 							</div>
@@ -241,7 +240,7 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-lg-15 text-center">
-					<div class="main_title">
+					<div class="main_text">
 						<h2>Quem testou e aprovou</h2>
 					</div>
 				</div>
@@ -330,3 +329,9 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 	<script src="js/gmaps.min.js"></script>
 	<script src="js/theme.js"></script>
 </body>
+
+<div class="client-info">
+									<span class="lage">4</span>
+									<span class="smll">Anos desenvolvendo soluções que redefinem possibilidades! </span><br>
+								
+								</div>
