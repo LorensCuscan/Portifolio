@@ -39,7 +39,7 @@
 
 							
 								
-								<a class="primary_btn" href="https://wa.me/5511965453930?"><span>Me contrate</span></a>
+								<a class="primary_btn" href="https://wa.me/5511965453930?"><span>Entre em contato!</span></a>
 								<a class="primary_btn tr-bg" href="{{ route('curriculo') }}"><span>Curriculo</span></a>
 							</div>
 						</div>

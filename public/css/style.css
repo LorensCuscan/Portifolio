@@ -2555,7 +2555,7 @@ h6 {
     .vertical-banner {
       position: absolute;
       top: -400px;
-      
+      border-radius: 20px;
       right: -100px;
       z-index: -1;
       height: 220vh; /* Ajuste a altura conforme necessário */    
@@ -2563,7 +2563,7 @@ h6 {
       object-fit: cover;
       max-width: 100%;
       margin-top: -350px; /* Ajuste para cobrir a área desejada */
-      transform: scale(1.1, 1) translateX(-100px);
+      transform: scale(1.1, 1) translateX(-40px);
   }
 
 /* End Features Area css
