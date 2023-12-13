@@ -2557,7 +2557,8 @@ h6 {
       position: absolute;
       margin-top: 100px;
       border-radius: 20px;
-      margin-left: 80px;
+
+      margin-left: 20px;
       z-index: -1;
       height: 90vh; /* Ajuste a altura conforme necessário */    
       width: auto;
@@ -2565,7 +2566,7 @@ h6 {
       max-width: 100%;
       /* Ajuste para cobrir a área desejada */
       transform: scale(1.2, 1) translateX(-25px);
-  
+      transform: rotate(180deg);
   }
 
 /* End Features Area css
