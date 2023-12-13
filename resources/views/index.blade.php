@@ -113,11 +113,11 @@
 	<!--================ End Brand Area =================-->
 	<!--================ Start Features Area =================-->
 	<section class="features_area">
-		<div class="container">
+		<div class="container-cards">
 			<div class="row justify-content-center">
 				<div class="col-lg-8 text-center">
 					<div class="services-text">
-						<h2>Serviços oferecidos </h2>
+						<h3>Serviços oferecidos </h3>
 					</div>
 				</div>
 			</div>

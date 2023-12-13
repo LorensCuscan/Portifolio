@@ -71,17 +71,32 @@ input[type=checkbox]:checked + .switch-btn:before {
   color: #000;
 }
 
-.services-text h2{
+@keyframes typing {
+  from {
+    width: 0; /* Inicia com largura zero (texto não visível) */
+  }
+  to {
+    width: 100%; /* Termina com largura total (texto totalmente visível) */
+  }
+}
+
+.services-text h3{
   font-size: 50px;
   transition: transform .2s; /* Animation */
   display: inline-block;
-  color: #854fee;
-  font-family: "Rubik", sans-serif;
+  color: #4e1db1;
+  font-family: "Stencil Std", fantasy;
   font-size: 50px;
   font-weight: 700;
   line-height: 85px;
   position: relative;
-  margin-bottom: -250px;
+  margin-top: -250px;
+  overflow: hidden; /* Esconde o texto que excede o contêiner */
+  white-space: nowrap; /* Evita que o texto quebre em várias linhas */
+  animation: typing 4s steps(40) infinite; /* Digitação por 4 segundos, em loop */
+  border-right: 3px solid transparent; /* Simula o cursor de digitação */
+  animation-fill-mode: both; /* Mantém o estado final da animação */
+
 }
 
 input[type=checkbox]:checked + .switch-btn {
@@ -209,6 +224,7 @@ button:focus {
   text-transform: uppercase; }
 
 .main_title {
+  
   text-align: center;
   margin-bottom: 200px; }
   @media (max-width: 1199px) {
@@ -2584,9 +2600,17 @@ h6 {
   padding-bottom: 170px; }
   @media (max-width: 1199px) {
     .features_area {
+      
       padding-bottom: 50px; } }
 
+      .container-cards{
+        margin-top: -390px;
+      }
+
+      
+
 .feature_item {
+  
   padding: 45px 25px;
   text-align: center;
   background: #f9f9fd;
@@ -2600,11 +2624,13 @@ h6 {
     margin-bottom: 35px; }
   .feature_item h4 {
     font-size: 20px;
-    margin-bottom: -450px;
+   
     text-transform: uppercase; }
   .feature_item p {
+   
     margin-bottom: 0px; }
   .feature_item:hover {
+    
     box-shadow: 0px 15px 30px rgba(77, 87, 222, 0.3);
     background: #fff; }
 
