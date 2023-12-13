@@ -65,8 +65,8 @@ input[type=checkbox]:checked + .switch-btn:before {
   margin-left: 100px;
 }
 
-.services-text{
-  margin-top: 200px;
+.services-text h2{
+  margin-top: -450px;
   color: #000;
   
 }
