@@ -2642,11 +2642,12 @@ h6 {
      
 
       .client-info:hover .lage {
-        animation: zoomIn 1s ease forwards;
+        transform: scale(1.3);;
       }
 
   .client-info:before {
     background: transparent; /* ou background: none; */
+    transition: transform .2s; /* Animation */
     background-image: none;
     content: '';
     position: absolute;
@@ -2671,31 +2672,28 @@ h6 {
     transform: scale(1); /* Tamanho original */
   }
   to {
-    transform: scale(1.2); /* Tamanho aumentado em 20% */
+    transform: scale(1.3); /* Tamanho aumentado em 20% */
   }
 }
 
 /* Aplicando a transição na escala do elemento .lage */
 .client-info .lage {
   font-size: 100px;
-    transition: transform 0.3s ease;
-    display: inline-block;
+  transition: transform .2s; /* Animation */
+  display: inline-block;
   color: #854fee;
   font-family: "Rubik", sans-serif;
   font-size: 100px;
   font-weight: 700;
   line-height: 85px;
   position: relative;
-  transition: transform 0.3s ease; /* Adicionando a transição para o hover */
+  /* Adicionando a transição para o hover */
 }
 
 /* Aplicando a animação de zoomIn no hover */
 .client-info .lage:hover {
   transform: scale(1.2);
 }
-
-
-    
     
   .client-info .smll {
     text-align: left;
