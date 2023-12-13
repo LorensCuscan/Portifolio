@@ -21,7 +21,7 @@
 						
 							<h3 class="text-uppercase">Olá,</h3>
 							
-							<h1 class="text-uppercase">Lorens Cuscan</h1>
+							<h1 class="animate__animated animate__bounceInLeft">Lorens Cuscan</h1>
 
 							
 							<h5 class="text-uppercase">FullStack PHP Developer</h5>
