@@ -67,6 +67,8 @@ input[type=checkbox]:checked + .switch-btn:before {
 
 .services-text{
   margin-top: 200px;
+  color: #000;
+  
 }
 
 input[type=checkbox]:checked + .switch-btn {
