@@ -2557,10 +2557,10 @@ h6 {
       position: absolute;
       margin-top: 100px;
       border-radius: 20px;
-      margin-right: -130px;
+      margin-right: -110px;
       z-index: -1;
-      height: 90vh; /* Ajuste a altura conforme necessário */    
-      width: 500px;
+      height: 90vh; 
+      width: 550px;
       object-fit: cover;
       max-width: 300%;
       /* Ajuste para cobrir a área desejada */
