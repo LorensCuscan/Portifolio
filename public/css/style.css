@@ -58,6 +58,7 @@ input[type=checkbox]:checked + .switch-btn:before {
  
 }
 
+
 input[type=checkbox]:checked + .switch-btn {
  
   background: rgb(84, 29, 187);
