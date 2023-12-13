@@ -2687,6 +2687,7 @@ h6 {
   font-weight: 700;
   line-height: 85px;
   position: relative;
+ 
   /* Adicionando a transição para o hover */
 }
 
@@ -2696,11 +2697,20 @@ h6 {
 }
     
   .client-info .smll {
+    
     text-align: left;
     color: #000000;
     font-family: "Rubik", sans-serif;
     font-size: 20px;
     margin-left: 10px; }
+
+    .smll-2{
+      text-align: left;
+    color: #000000;
+    font-family: "Rubik", sans-serif;
+    font-size: 20px;
+    margin-left: 83px; }
+    
 
 .call-now {
   padding-top: 50px;

@@ -72,8 +72,8 @@
 							<div class="custom-margin">
 								<div class="client-info">
 									<span class="lage">4</span>
-									<span class="smll">Anos desenvolvendo soluções que <br> redefinem possibilidades! </span>
-						
+									<span class="smll">Anos desenvolvendo soluções que </span><br>
+									<span class="smll-2">redefinem possibilidades!</span>
 								</div>
 							</div>
 							</div>
