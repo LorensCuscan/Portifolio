@@ -163,7 +163,7 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<div class="main_title text-left">
+					<div class="projects-text text-left">
 						<h2>Alguns dos <br>
 							meus projetos mais recentes </h2>
 					</div>

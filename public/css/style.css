@@ -65,6 +65,12 @@ input[type=checkbox]:checked + .switch-btn:before {
   margin-left: 100px;
 }
 
+.projects-text h2{
+  text-align: center;
+  margin-top: -150px;
+  color: #000;
+}
+
 .services-text h2{
   margin-top: -450px;
   color: #000;
@@ -2573,7 +2579,7 @@ h6 {
   text-align: center;
   background: #f9f9fd;
   cursor: pointer;
-  margin-bottom: 30px;
+  margin-bottom: -30px;
   -webkit-transition: all 0.4s ease 0s;
   -moz-transition: all 0.4s ease 0s;
   -o-transition: all 0.4s ease 0s;
@@ -2582,7 +2588,7 @@ h6 {
     margin-bottom: 35px; }
   .feature_item h4 {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: -450px;
     text-transform: uppercase; }
   .feature_item p {
     margin-bottom: 0px; }
