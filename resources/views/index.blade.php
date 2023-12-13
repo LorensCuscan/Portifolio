@@ -72,7 +72,7 @@
 							<div class="custom-margin">
 								<div class="client-info">
 									<span class="lage">4</span>
-									<span class="smll">Anos tornando o sonho, realidade! </span>
+									<span class="smll">Anos desenvolvendo soluções que <br> redefinem possibilidades! </span>
 						
 								</div>
 							</div>

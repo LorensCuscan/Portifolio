@@ -2614,6 +2614,7 @@ h6 {
 
       
 .client-info {
+  margin-left: -70px;
   white-space: nowrap;
   padding: 25px 30px;
   opacity: 0; /* Comece com a opacidade 0 para o efeito de fade-in */
