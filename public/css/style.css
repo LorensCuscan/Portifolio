@@ -121,6 +121,7 @@ h3{
 h4,
 h5,
 .intro-text {
+  margin-right: 230px;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
   color: #000000; }
@@ -187,15 +188,15 @@ button:focus {
 ============================================================================================ */
 .main_title {
   text-align: center;
-  margin-bottom: 100px; }
+  margin-bottom: 200px; }
   @media (max-width: 1199px) {
     .main_title {
       margin-bottom: 50px; } }
   .main_title h2 {
-    margin-top: -600px;
+    margin-top: -570px;
     font-size: 36px;
     font-weight: 700;
-    margin-bottom: 15px;
+    margin-bottom: -95px;
     line-height: 50px;
     text-transform: uppercase; }
     @media (max-width: 991px) {
@@ -2647,14 +2648,15 @@ h6 {
 
       
 .client-info {
-  margin-left: -70px;
+  margin-left: 450px;
   white-space: nowrap;
   padding: 25px 30px;
   opacity: 0; /* Comece com a opacidade 0 para o efeito de fade-in */
   animation: fadeInAnimation 2s ease forwards; /* Duração da animação: 1 segundo */
   text-align: center;
   position: relative;
-  margin-top: 320px; }
+  margin-bottom: 320px; 
+  margin-top: 150px;}
 
   @media only screen and (max-width: 991px) {
     .client-info {
@@ -2734,13 +2736,9 @@ h6 {
     font-family: "Rubik", sans-serif;
     font-size: 20px;
     margin-left: 10px; }
+    
 
-    .smll-2{
-      text-align: left;
-    color: #000000;
-    font-family: "Rubik", sans-serif;
-    font-size: 20px;
-    margin-left: 83px; }
+   
     
 
 .call-now {
