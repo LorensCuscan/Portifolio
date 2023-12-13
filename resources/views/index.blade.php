@@ -72,9 +72,8 @@
 							<div class="custom-margin">
 								<div class="client-info">
 									<span class="lage">4</span>
-									<span class="smll">Anos trazendo flexibilidade, segurança </span>
-									<br>
-									<span class="smll">e creatividade para todo trabalho digital</span>		
+									<span class="smll">Anos tornando o sonho, realidade! </span>
+						
 								</div>
 							</div>
 							</div>
