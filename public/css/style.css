@@ -2557,13 +2557,12 @@ h6 {
       position: absolute;
       margin-top: 100px;
       border-radius: 20px;
-      margin-left: 100px;
-  
+      margin-right: -130px;
       z-index: -1;
       height: 90vh; /* Ajuste a altura conforme necessário */    
-      width: auto;
+      width: 500px;
       object-fit: cover;
-      max-width: 200%;
+      max-width: 300%;
       /* Ajuste para cobrir a área desejada */
       transform: scale(1.2, 1) translateX(-95px);
       transform: rotate(180deg);
