@@ -25,14 +25,37 @@ Author E-mail: naimlasker@gmail.com
 /* Wide Mobile Layout: 480px */
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-
-
-
-.programmer{
-  width: 30%;
-  margin-top: -1250px;
-
+/* Estilos para a resolução padrão ou maior */
+.programmer {
+  
+  max-width: 100%;
+  position: absolute;
+  left: 25%;
+  top: 80%;
+  transform: translate(-15%, -100%);
 }
+
+/* Media query para resoluções menores que 1366px */
+@media screen and (max-width: 1366px) {
+  .programmer {
+    margin-top: 5%;
+    margin-left: -5%;
+    
+  }
+}
+
+/* Media query para resoluções menores que 1600px */
+@media screen and (max-width: 1600px) {
+  .programmer {
+    left: 20%;
+    top: 100%;
+  }
+
+  .vertical-banner{
+    
+  }
+}
+
 
 .projects-text h2{
   text-align: center;
@@ -2604,16 +2627,15 @@ h6 {
     background: #fff; }
 
     .vertical-banner {
-  
       position: absolute;
-      margin-top: -245px;
+      margin-top: -60%;
       border-radius: 20px;
-      margin-right: -110px;
+      margin-right: 20%;
       z-index: -1;
-      height: 80vh; 
-      width: 550px;
+      height: -40%; 
+      width: 130%;
       object-fit: cover;
-      max-width: 300%;
+      max-width: 200%;
       /* Ajuste para cobrir a área desejada */
       transform: scale(1.2, 1) translateX(-95px);
       transform: rotate(180deg);
