@@ -44,8 +44,19 @@ Author E-mail: naimlasker@gmail.com
   }
 
   .services-text h3{
+    
     text-align: center;
-   
+    font-size: 50px;
+    transition: transform .2s; /* Animation */
+    display: inline-block;
+    color: #220c4e;
+    font-family: "arial", serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 85px;
+    position: relative;
+    margin-top: 15%;
+    border-right: 3px solid transparent; /* Simula o cursor de digitação */
   }
 }
 
@@ -56,15 +67,14 @@ Author E-mail: naimlasker@gmail.com
     top: 100%;
   }
 
-  .vertical-banner{
-    
-  }
+  
+
 }
 
 
 .projects-text h2{
   text-align: center;
-  margin-top: -150px;
+  margin-top: -5%;
   color: #000;
 }
 
@@ -74,14 +84,13 @@ Author E-mail: naimlasker@gmail.com
   font-size: 50px;
   transition: transform .2s; /* Animation */
   display: inline-block;
-  color: #220c4e;
+  color: #570f61;
   font-family: "arial", serif;
   font-size: 50px;
   font-weight: 700;
   line-height: 85px;
   position: relative;
-  margin-top: 15%;
-
+  margin-top: 0%;
   border-right: 3px solid transparent; /* Simula o cursor de digitação */
 }
 
