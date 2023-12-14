@@ -80,7 +80,7 @@ Author E-mail: naimlasker@gmail.com
   font-weight: 700;
   line-height: 85px;
   position: relative;
-  top: 40%;
+  margin-top: 15%;
 
   border-right: 3px solid transparent; /* Simula o cursor de digitação */
 }
