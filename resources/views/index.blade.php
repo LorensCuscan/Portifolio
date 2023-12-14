@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+	<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <style>
         .custom-margin {
             margin-top: -140px; /* Ajuste o valor conforme necessário */
@@ -106,7 +110,11 @@
 		
 	</section>
 	<!--================ End About Us Area =================-->
-	<img class="programmer" src="images/animations/programmer.gif"></img>
+
+
+	<img class="programmer" style="max-width: 100%" src="images/animations/programmer.gif"></img>
+
+	
 	<!--================ Srart Brand Area =================-->
 	
 	
