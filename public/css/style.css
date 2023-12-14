@@ -84,7 +84,7 @@ Author E-mail: naimlasker@gmail.com
   font-size: 50px;
   transition: transform .2s; /* Animation */
   display: inline-block;
-  color: #570f61;
+  color: #000000;
   font-family: "arial", serif;
   font-size: 50px;
   font-weight: 700;
@@ -92,6 +92,7 @@ Author E-mail: naimlasker@gmail.com
   position: relative;
   margin-top: 0%;
   border-right: 3px solid transparent; /* Simula o cursor de digitação */
+  overflow: hidden;
 }
 
 
@@ -2579,6 +2580,9 @@ h6 {
       padding-bottom: 50px; } }
 
       .container-cards{
+        position: relative;
+        width: 100%; /* Para garantir que ocupe toda a largura */
+        overflow: hidden; /* Para ocultar a linha extra que se estende */
         margin-top: -390px;
       }
 
