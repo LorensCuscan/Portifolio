@@ -26,39 +26,7 @@ Author E-mail: naimlasker@gmail.com
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 
-.switch {
- opacity: 0;
-}
 
-
-
-.switch-btn {
-  width: 40px;
-  height: 20px;
-  background: #e5e5e5;
-  position: relative;
-  border-radius: 20px;
-  box-shadow: inset 0 2px 4px;
-  justify-content: space-between;
-}
-
-.switch-btn:before {
-  content: '';
-  position: absolute;
-  height: 15px;
-  width: 15px;
-  background: #fff;
-  left: 2px;
-  top: 2px;
-  border-radius: 50%;
-  transition: all 250ms ease-out;
-  box-shadow: 0 8px 6px -4px rgb(84, 29, 187);
-}
-
-input[type=checkbox]:checked + .switch-btn:before {
-  left: 23px;
- 
-}
 
 .programmer{
   margin-top: -1250px;
@@ -2635,6 +2603,7 @@ h6 {
     background: #fff; }
 
     .vertical-banner {
+  
       position: absolute;
       margin-top: -245px;
       border-radius: 20px;
