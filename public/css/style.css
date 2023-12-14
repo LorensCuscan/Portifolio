@@ -2632,12 +2632,13 @@ h6 {
       border-radius: 20px;
       margin-right: 20%;
       z-index: -1;
-      height: -40%; 
+      height: -20%; 
       width: 130%;
       object-fit: cover;
       max-width: 200%;
+      max-height: -70%;
       /* Ajuste para cobrir a área desejada */
-      transform: scale(1.2, 1) translateX(-95px);
+      transform: scale(1.2, 1) translateX(150px);
       transform: rotate(180deg);
   }
 
