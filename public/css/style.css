@@ -66,9 +66,11 @@ Author E-mail: naimlasker@gmail.com
     left: 20%;
     top: 100%;
   }
+}
 
-  
-
+.service-banner{
+  width: 100%;
+  margin-top: 10%;
 }
 
 
@@ -93,6 +95,15 @@ Author E-mail: naimlasker@gmail.com
   margin-top: 0%;
   border-right: 3px solid transparent; /* Simula o cursor de digitação */
   overflow: hidden;
+  position: relative;
+}
+
+.services-text img.service-banner {
+  position: absolute;
+  top: 0;
+  right: -50px; /* Ajusta o deslocamento para a direita */
+  width: 300px; /* Ajuste o tamanho conforme necessário */
+  height: auto; /* Mantém a proporção da imagem */
 }
 
 

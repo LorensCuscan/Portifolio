@@ -125,14 +125,15 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-8 text-center">
 					<div class="services-text">
-						<h3>Serviços oferecidos </h3>
+						<h3>Serviços oferecidos </h3><br><br>
 					</div>
 				</div>
 			</div>
+			<img src="images/banner/service-banner.webp" class="service-banner">
 			<div class="row feature_inner">
 				<div class="col-lg-3 col-md-6">
 					<div class="feature_item">
-						<img src="img/services/s1.png" alt="">
+						
 						<h4>data engineer</h4>
 						<p>
 Possuo vasta experiência em bancos de dados relacionais e não relacionais, demonstrando competência na estruturação e manipulação de dados em ambientes diversos. Minha trajetória abrange projetos sólidos em ambos os tipos de bancos</p>
