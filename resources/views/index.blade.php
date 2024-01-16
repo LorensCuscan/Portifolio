@@ -134,10 +134,10 @@
 			<div class="row feature_inner">
 				<div class="col-lg-3 col-md-6 ">
 					<div class="feature_item " >
-						
+					<img src="img/services/s1.png" alt="">
 						<h4 >data engineer</h4>
 						<p>
-Possuo vasta experiência em bancos de dados relacionais e não relacionais, demonstrando competência na estruturação e manipulação de dados em ambientes diversos. Minha trajetória abrange projetos sólidos em ambos os tipos de bancos</p>
+Possuo vasta experiência em bancos de dados relacionais e não relacionais, demonstrando competência na estruturação e manipulação de dados em ambientes diversos</p>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-6">
@@ -168,6 +168,7 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 	<!--================ End Features Area =================-->
 
 	<!--================Start Portfolio Area =================-->
+	<br><br><br><br>
 	<section class="portfolio_area" id="portfolio">
 		<div class="container">
 			<div class="row">
