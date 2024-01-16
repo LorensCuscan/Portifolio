@@ -44,10 +44,11 @@ Author E-mail: naimlasker@gmail.com
     
   }
   .service-banner{
-    line-height:0;
-    
-    height:160px;
-   
+    line-height: 0;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    }
 
   .services-text h3{
@@ -75,17 +76,22 @@ Author E-mail: naimlasker@gmail.com
   }
 
   .service-banner{
-   line-height:0;
-   margin-left: 200px;
-   height:160px;
+    line-height: 0;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
 }
 
 .service-banner{
-  line-height:0;
- width:1400px;
- height:160px;
+  line-height: 0;
+  height: 160px;
+  width: 2000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 

@@ -339,8 +339,3 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 	<script src="js/theme.js"></script>
 </body>
 
-<div class="client-info">
-									<span class="lage">4</span>
-									<span class="smll">Anos desenvolvendo soluções que redefinem possibilidades! </span><br>
-								
-								</div>
