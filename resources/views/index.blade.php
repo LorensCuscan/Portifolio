@@ -164,6 +164,10 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 				</div>
 			</div>
 		</div>
+		<div class="second_logo">
+		<span class="lage">4</span>
+			<span class="smll">Anos desenvolvendo soluções que redefinem possibilidades! </span><br>							
+</div>
 	</section>
 	<!--================ End Features Area =================-->
 
@@ -341,7 +345,3 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 	<script src="js/theme.js"></script>
 </body>
 
-<div class="client-info">
-<span class="lage">4</span>
-<span class="smll">Anos desenvolvendo soluções que redefinem possibilidades! </span><br>							
-</div>
