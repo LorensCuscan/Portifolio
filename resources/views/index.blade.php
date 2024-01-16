@@ -125,6 +125,7 @@
 			<div class="row justify-content-center">
 				<div class="col-lg-8 text-center">
 					<div class="services-text">
+					<br><br><br><br>
 						<h3>Serviços oferecidos </h3><br><br>
 					</div>
 				</div>
@@ -339,3 +340,7 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 	<script src="js/theme.js"></script>
 </body>
 
+<div class="client-info">
+<span class="lage">4</span>
+<span class="smll">Anos desenvolvendo soluções que redefinem possibilidades! </span><br>							
+</div>
