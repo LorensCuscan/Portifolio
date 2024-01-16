@@ -28,7 +28,7 @@
 							<h1 class="animate__animated animate__bounceInLeft">Lorens Cuscan</h1>
 
 							
-							<h5 class="text-uppercase">Desenvolvedor Fullstack PHP</h5>
+							<h5 class="text-uppercase">Desenvolvedor Fullstack</h5>
 
 							
 													
