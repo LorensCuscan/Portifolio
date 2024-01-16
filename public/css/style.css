@@ -87,15 +87,10 @@ Author E-mail: naimlasker@gmail.com
 
 .service-banner{
 
+ 
   height: 60px;
   width: 100%;
-  max-width: 2000px;
-  display: center;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10%;
-  border-top-right-radius: 30%;
-  margin: auto;
+  border-radius: 5%;
 }
 
 

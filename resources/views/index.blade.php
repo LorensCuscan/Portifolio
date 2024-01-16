@@ -132,10 +132,10 @@
 			</div>
 			<img src="images/banner/service-banner.webp" class="service-banner">
 			<div class="row feature_inner">
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
+				<div class="col-lg-3 col-md-6 ">
+					<div class="feature_item " >
 						
-						<h4>data engineer</h4>
+						<h4 >data engineer</h4>
 						<p>
 Possuo vasta experiência em bancos de dados relacionais e não relacionais, demonstrando competência na estruturação e manipulação de dados em ambientes diversos. Minha trajetória abrange projetos sólidos em ambos os tipos de bancos</p>
 					</div>
