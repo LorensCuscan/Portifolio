@@ -74,13 +74,10 @@
 				<div class="col-lg-1">
 				<div class="offset-lg-8 col-lg-12 col-md-8">
 							<div class="custom-margin">
-								<div class="client-info">
-							
-								
+								<div class="client-info">	
 								</div>
 							</div>
-							</div>
-					
+							</div>			
 				</div>
 				<div class="col-lg-5">
 					<div class="about_img">
@@ -120,16 +117,17 @@
 	
 	<!--================ End Brand Area =================-->
 	<!--================ Start Features Area =================-->
+	<br><br><br>
 	<section class="features_area">
 		<div class="container-cards">
 			<div class="row justify-content-center">
 				<div class="col-lg-8 text-center">
 					<div class="services-text">
-					<br><br><br><br>
+					<br><br><br>
 						<h3>Serviços oferecidos </h3><br><br>
 					</div>
-				</div>
-			</div>
+				</div>				
+			</div>		
 			<img src="images/banner/service-banner.webp" class="service-banner">
 			<div class="row feature_inner">
 				<div class="col-lg-3 col-md-6 ">

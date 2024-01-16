@@ -85,19 +85,30 @@ Author E-mail: naimlasker@gmail.com
 }
 
 .service-banner{
- 
- 
+  margin-left: 15%;
   height: 60px;
-  width: 100%;
-  border-radius: 5%;
+  width: 70%;
+  position: relative;
+  border-radius: 50px;
+}
+.service-banner::before,
+.service-banner::after {
+  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 10%;
+  border-radius: 90%;
+  background: #ffffff; /* A cor do fundo deve coincidir com o fundo da sua página */
 }
 
 
 
 
 .projects-text h2{
+  
   text-align: center;
-  margin-top: -5%;
+  margin-top: -15%;
   color: #000;
 }
 
@@ -224,7 +235,8 @@ button:focus {
 /* Main Title Area css
 ============================================================================================ */
 .main_text h2 {
-  margin-top: -100px;
+
+  margin-top: 100px;
   font-size: 36px;
   font-weight: 700;
   color:rgba(0, 0, 0, 0.8);
