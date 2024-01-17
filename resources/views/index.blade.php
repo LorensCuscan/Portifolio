@@ -144,7 +144,7 @@
     </div>
     <div class="col-lg-3 col-md-4">
         <div class="feature_item text-center">
-            <img src="img/services/s4.png" alt="">
+            <img src="img/services/s1.png" alt="">
             <h4>PHP Developing</h4>
             <p>Experiência sólida em PHP Laravel para criar aplicativos web robustos e seguros.</p>
         </div>
@@ -159,85 +159,48 @@
 	<!--================ End Features Area =================-->
 
 	<!--================Start Portfolio Area =================-->
+	
 	<br><br><br><br>
 	<section class="portfolio_area" id="portfolio">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="projects-text text-left">
-						<h2>Alguns dos <br>
-							meus projetos mais recentes </h2>
-					</div>
-				</div>
-			</div>
-			<div class="filters portfolio-filter">
-			</div>
-			<div class="filters-content">
-				<div class="row portfolio-grid justify-content-center">
-					<div class="col-lg-4 col-md-6 all latest">
-					<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p1.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p1.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">Locadora de Carros</a></h4>
-								<p>Vue.js, PHP</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all popular">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p2.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p2.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">App Super gestão</a></h4>
-								<p>Laravel</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all latest">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p3.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p3.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-							<div class="short_info">
-								<h4><a href="portfolio-details.html">Sismat</a></h4>
-								<p>Laravel, CSS, Bootstrap</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 all popular">
-						<div class="portfolio_box">
-							<div class="single_portfolio">
-								<img class="img-fluid w-100" src="img/portfolio/p4.jpg" alt="">
-								<div class="overlay"></div>
-								<a href="img/portfolio/p4.jpg" class="img-gal">
-									<div class="icon">
-										<span class="lnr lnr-cross"></span>
-									</div>
-								</a>
-							</div>
-				 <div>
-			<div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="projects-text text-left">
+          <h2>Alguns dos meus projetos mais recentes</h2>
+        </div>
+
+        <div id="portfolioCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagem1.jpg" alt="Projeto 1">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Projeto 1</h5>
+                <p>Descrição do Projeto 1.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagem2.jpg" alt="Projeto 2">
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Projeto 2</h5>
+                <p>Descrição do Projeto 2.</p>
+              </div>
+            </div>
+            </div>
+          <a class="carousel-control-prev" href="#portfolioCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#portfolioCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+					
+				
 	<!--================End Portfolio Area =================-->
 	<!--================ Start Testimonial Area =================-->
   <div class="testimonial_area section_gap_bottom">
