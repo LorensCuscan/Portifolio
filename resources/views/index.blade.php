@@ -120,48 +120,37 @@
 	<br><br><br>
 	<section class="features_area">
 		<div class="container-cards">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 text-center">
-					<div class="services-text">
-					<br><br><br>
-						<h3>Serviços oferecidos </h3><br><br>
-					</div>
-				</div>				
-			</div>		
-			<img src="images/banner/service-banner.webp" class="service-banner">
-			<div class="row feature_inner">
-				<div class="col-lg-3 col-md-6 ">
-					<div class="feature_item " >
-					<img src="img/services/s1.png" alt="">
-						<h4 >data engineer</h4>
-						<p>
-Possuo vasta experiência em bancos de dados relacionais e não relacionais, demonstrando competência na estruturação e manipulação de dados em ambientes diversos</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s2.png" alt="">
-						<h4>Web design</h4>
-						Tenho domínio em Vue.js, um framework ágil e dinâmico para construir interfaces responsivas e modernas, permitindo criar soluções inovadoras e eficientes para os usuários.	</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s3.png" alt="">
-						<h4>Responsividade</h4>
-						<p>
-Tenho proficiência na biblioteca JavaScript, capacitando-me a desenvolver funcionalidades interativas, dinâmicas e com alta responsividade em aplicações web de forma eficaz e ágil.</p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature_item">
-						<img src="img/services/s4.png" alt="">
-						<h4>PHP developing</h4>
-						<p>
-Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos web robustos, seguros e altamente escaláveis, mantendo um código limpo e de fácil manutenção.</p>
-					</div>
-				</div>
-			</div>
-		</div>
+		<div class="row feature_inner">
+    <div class="col-lg-3 col-md-4">
+        <div class="feature_item text-center">
+            <img src="img/services/s1.png" alt="">
+            <h4>Data Engineer</h4>
+            <p>Experiência em bancos de dados relacionais e não relacionais.</p>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4">
+        <div class="feature_item text-center">
+            <img src="img/services/s2.png" alt="">
+            <h4>Web Design</h4>
+            <p>Domínio em Vue.js para construir interfaces responsivas e modernas.</p>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4">
+        <div class="feature_item text-center">
+            <img src="img/services/s3.png" alt="">
+            <h4>Responsividade</h4>
+            <p>Proficiência na biblioteca JavaScript para desenvolver funcionalidades interativas e responsivas.</p>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-4">
+        <div class="feature_item text-center">
+            <img src="img/services/s4.png" alt="">
+            <h4>PHP Developing</h4>
+            <p>Experiência sólida em PHP Laravel para criar aplicativos web robustos e seguros.</p>
+        </div>
+    </div>
+</div>
+
 		<div class="second_logo">
 		<span class="lage">4</span>
 			<span class="smll">Anos desenvolvendo soluções que redefinem possibilidades! </span><br>							
@@ -247,6 +236,8 @@ Possuo experiência sólida em PHP Laravel, capacitando-me a criar aplicativos w
 									</div>
 								</a>
 							</div>
+				 <div>
+			<div>
 	<!--================End Portfolio Area =================-->
 	<!--================ Start Testimonial Area =================-->
   <div class="testimonial_area section_gap_bottom">
